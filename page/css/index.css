@@ -1,0 +1,10 @@
+td {
+  padding: 20px 40px;
+}
+td,
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #bfa;
+}
