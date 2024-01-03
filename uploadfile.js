@@ -23,7 +23,7 @@ for (let chunkIndex = 0; chunkIndex < totalChunk; chunkIndex++) {
   const end =
     start + chunkSize >= file.length ? file.length : start + chunkSize;
   console.log(end, "每次的end");
-  debugger;
+
   const chunk = file.slice(start, end);
 
   // 计算MD5
@@ -53,23 +53,22 @@ async function sendRequest(formData) {
       formData
     );
     console.log(response.data);
-    console.log("调用axios成功");
   } catch (error) {
     console.error(error);
   }
 }
 
-// async function fetchData() {
-//   try {
-//     const response = await axios.get(
-//       "http://192.168.0.100:8080/minio/get/token"
-//     );
-//     // 处理响应数据
-//     console.log(response.data);
-//   } catch (error) {
-//     // 处理错误
-//     console.error(error);
-//   }
-// }
+async function getToken() {
+  try {
+    const response = await axios.get(
+      "http://192.168.0.100:8080/minio/get/token"
+    );
+    // 处理响应数据
+    console.log(response.data);
+  } catch (error) {
+    // 处理错误
+    console.error(error);
+  }
+}
 
-// fetchData();
+getToken();
