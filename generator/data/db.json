@@ -1,0 +1,60 @@
+{
+  "accounts": [
+    {
+      "id": "GKw_XsfFS",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    },
+    {
+      "id": "LPhrhQBXk",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    },
+    {
+      "id": "rhNDQu_Di",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    },
+    {
+      "id": "rSKTzZ1tq",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    },
+    {
+      "id": "kd-vaAK1n",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    },
+    {
+      "id": "zIlVzf-t1",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    },
+    {
+      "id": "R6QY1RQV8",
+      "sen": "发工资",
+      "date": "0001-01-01",
+      "text": "收入",
+      "money": "1000",
+      "remark": "薪酬"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<style>
+ .container {
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+</style>
+<body>
+ <div class="container">
+  <h1>添加记录</h1>
+  <form action="/account" method="post">
+   <p>事项:<input type="text" name="sen"></p>
+   <p>发生时间:<input type="date" name="date"></p>
+
+   <p>类型:<select name="text">
+    <option value="收入">收入</option>
+    <option value="支出">支出</option>
+   </select></p>
+   <p>金额:<input type="text" name="money"></p>
+ 
+   <p>备注:<textarea name="remark"></textarea></p>
+   <p><input type="submit" value="添加"></p>
+ 
+ </div>
+
+
+</body>
+</html>
